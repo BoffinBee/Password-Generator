@@ -37,3 +37,15 @@ function genPass() {
     copyEl1.style.visibility = "visible";
     copyEl2.style.visibility = "visible";
 }
+
+function copyContent(contentEl) {
+    navigator.clipboard.writeText(contentEl.textContent);
+}
+
+function copyKey1() {
+    copyContent(pass1El);
+}
+
+function copyKey2() {
+    copyContent(pass2El);
+}
