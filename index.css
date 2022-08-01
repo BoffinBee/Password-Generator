@@ -51,6 +51,14 @@ margin-bottom: 10px;
     margin: 30px 0px;
 }
 
+#gen-btn:active{
+    width: 189px;
+}
+
+#gen-btn:hover {
+    cursor: pointer;
+}
+
 hr {
     border: 1px solid #2F3E53;
 }
@@ -71,6 +79,11 @@ hr {
     margin: 30px 0px;
     margin-left: 4px;
     margin-right: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 10px;
 }
 
 .pass-box h3 {
@@ -79,4 +92,23 @@ hr {
     color: #55F991;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.material-symbols-outlined {
+    display: inline;
+    color: #D5D4D8;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 16
+}
+
+#copy-btn1:active, #copy-btn2:active {
+    color: #80ffa6;
+}
+
+#copy-btn1:hover, #copy-btn2:hover {
+    /* color: #80ffa6; */
+    cursor: pointer;
 }

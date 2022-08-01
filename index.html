@@ -7,6 +7,10 @@
     />
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -27,11 +31,31 @@
         >
       </h1>
       <h4 class="headline-sub">Never use an insecure password again!</h4>
-      <button onclick="genPass()" id="gen-btn">Generate Passwords</button>
+      <div class="btn-wrapper">
+        <button onclick="genPass()" id="gen-btn">Generate Passwords</button>
+      </div>
       <hr />
       <div class="pass-container">
-        <div class="pass-box"> <h3 id="pass-1"></h3> </div>
-        <div class="pass-box"><h3 id="pass-2"></h3></div>
+        <div class="pass-box">
+          <h3 id="pass-1"></h3>
+          <span
+            class="material-symbols-outlined"
+            id="copy-btn1"
+            onclick="copyKey"
+          >
+            content_copy
+          </span>
+        </div>
+        <div class="pass-box">
+          <h3 id="pass-2"></h3>
+          <span
+            class="material-symbols-outlined"
+            id="copy-btn2"
+            onclick="copyKey"
+          >
+            content_copy
+          </span>
+        </div>
       </div>
     </div>
     <script src="index.js"></script>
