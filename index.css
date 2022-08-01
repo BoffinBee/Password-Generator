@@ -1,0 +1,82 @@
+body {
+    margin: 0px;
+    background-color: #1C1C1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 30px 100px;
+    padding-top: 10px;
+    width: 650px;
+    height: 500px;
+    background-color: #1F2937;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.headline {
+font-family: 'Karla', sans-serif;
+font-weight: bold;
+font-size: 40px;
+color: white;
+padding-top: 40px;
+margin-bottom: 10px;
+}
+
+.h1-ln2, .h1-ln3 {
+    display: block;
+    color: #4ADF86;
+}
+
+.h1-ln2 {
+    color:  #80ffa6;
+}
+
+.headline-sub {
+    font-size: 20px;
+    font-weight: normal;
+    color: #D5D4D8;
+    margin-top: 15px;
+}
+
+#gen-btn {
+    width: 191px;
+    height: 42px;
+    border: none;
+    background-color: #10B981;
+    color: white;
+    border-radius: 6px;
+    margin: 30px 0px;
+}
+
+hr {
+    border: 1px solid #2F3E53;
+}
+
+.pass-container {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+
+.pass-box {
+    border: none;
+    background-color: #273549;
+    height: 40px;
+    width: 300px;
+    border-radius: 6px;
+    text-align: center;
+    margin: 30px 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.pass-box h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #55F991;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
